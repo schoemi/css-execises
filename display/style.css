@@ -1,0 +1,19 @@
+* {
+    box-sizing: border-box;
+}
+
+.box {
+    height: 150px;
+    width: 350px;
+    background-color: magenta;
+    padding: 25px;
+    margin: 20px;
+}
+
+.box-inline {
+    display: inline-block;
+}
+
+.box-block {
+    display: block;
+}
