@@ -47,3 +47,12 @@
     border: none;
 
 }
+
+.cta-button:hover {
+    background-color: #0044ee;
+    color: #eeeeee;
+}
+.cta-button:active {
+    background-color: aqua;s
+    color: #555555;
+}
