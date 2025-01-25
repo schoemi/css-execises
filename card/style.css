@@ -3,8 +3,11 @@
     font-size: 16px;
 }
 
+.cardstack {
+    display: flex;
+}
+
 .card {
-    display: inline-block;
     height: auto;
     width: 250px;
     border: 1px solid;
@@ -13,6 +16,8 @@
     padding: 5px 0px 15px 0px;
     margin: 25px;
     box-shadow: 6px 6px 4px rgba(230, 230, 230, .8);
+    flex-grow: 0;
+    
 }
 
 .title {
@@ -43,8 +48,9 @@
     margin: 0 auto;
     color: white;
     background-color: cornflowerblue;
-    padding: 5px 8px;
+    padding: 5px 12px;
     border: none;
+    border-radius: 15px;
 
 }
 
@@ -53,6 +59,6 @@
     color: #eeeeee;
 }
 .cta-button:active {
-    background-color: aqua;s
+    background-color: aqua;
     color: #555555;
 }
